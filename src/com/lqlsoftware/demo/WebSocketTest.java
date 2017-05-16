@@ -16,7 +16,6 @@ public class WebSocketTest {
     throws IOException, InterruptedException {
   
     // Print the client message for testing purposes
-    System.out.println("Received: " + message);
     session.getBasicRemote().sendText("Received: " + message);
   }
   
